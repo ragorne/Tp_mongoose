@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require ('mongoose');
-var User = mongoose.model('User');
+var User = require('./model');
 var router = express.Router();
 
 router.ajoutUser= function(req, res) {
